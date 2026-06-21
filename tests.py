@@ -24,6 +24,8 @@ class TestBooksCollector:
     # чтобы тесты были независимыми в каждом из них создавай отдельный экземпляр класса BooksCollector()
 
 
+import pytest
+    
 def test_add_new_book_success():
     collector = BooksCollector()
     collector.add_new_book('Новая книга')
